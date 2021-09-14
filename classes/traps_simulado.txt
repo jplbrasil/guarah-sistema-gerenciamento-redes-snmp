@@ -1,0 +1,5 @@
+2005-11-05  localhost  snmpv1  public  sysDescr  cold start trap (0) 12:00:00
+2005-11-05  localhost  snmpv1  public  sysDescr  warm start trap (0) 12:00:00
+2005-11-05  localhost  snmpv1  public  sysDescr  cold start trap (0) 12:00:00
+2005-11-05  localhost  snmpv1  public  sysDescr  warm start trap (0) 12:00:00
+2005-11-05  localhost  snmpv1  public  sysDescr  cold start trap (0) 12:00:00
