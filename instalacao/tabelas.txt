@@ -1,1 +1,34 @@
+create table usuario (
+usu_login	char(20)	not null,
+usu_nome	char(50)	not null,
+usu_email	char(50)	not null	unique,
+usu_senha	char(40)	not null,
+primary key (usu_login)
+);
 
+create table log (
+log_id		int 		auto_increment,
+log_data	date		not null,
+log_hora	time		not null,
+usu_login	char(20)	not null,
+log_ocorrencia	text		not null,
+primary key (log_id),
+foreign key (usu_login) references usuario(usu_login)
+);
+
+create table rede (
+red_id			int		auto_increment,
+red_nome		char(20)	not null	unique,
+red_ip_inicial		char(15)	not null,
+red_ip_final		char(15)	not null,
+red_comunidade		char(40)	not null,
+primary key(red_id)
+);
+
+create table usuario_rede (
+usu_login	char(20)	not null,
+red_id		int		not null,
+primary key(usu_login,red_id),
+foreign key (usu_login) references usuario(usu_login),
+foreign key (red_id) references rede(red_id)
+);
