@@ -1,0 +1,15 @@
+	a) se nao existir o guara.ini, exibir mensagem amigavel no index.php;
+OK	b) log de entrada e saida do sistema;
+	-> fiz apenas na entrada
+OK	c) classe SNMP;
+OK	d) tela sumario rede;
+OK	e) tela sumario host;
+OK	f) tela mapa rede;
+OK	g) tela acompanhamento de notificacoes;
+	h) cadastro gatilhos para notificacoes especiais;
+	i) tela de definicao de variaveis em hosts;
+OK	j) tela de selecao de rede;
+OK	k) menu em ordem alfabetica;
+	-> nao tera' mais
+	l) mensagem amigavel se nao conseguir conexao com o SGBD;
+
